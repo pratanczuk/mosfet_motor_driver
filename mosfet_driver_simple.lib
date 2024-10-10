@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.2  Date: 26/12/2011-21:03:50
+#
+# mosfet_driver_simple
+#
+DEF mosfet_driver_simple U 0 40 Y Y 1 0 N
+F0 "U" 0 -100 50 H V C C
+F1 "mosfet_driver_simple" 0 300 40 H V C CNN
+DRAW
+S -450 -400 450 400 0 0 0 N
+X DGND 1 -750 200 300 R 50 50 1 1 W
+X +5v 2 -750 100 300 R 50 50 1 1 W
+X PWM 3 -750 0 300 R 50 50 1 1 I
+X IN0 4 -750 -100 300 R 50 50 1 1 I
+X IN1 5 -750 -200 300 R 50 50 1 1 I
+X GND 6 750 -200 300 L 50 50 1 1 W
+X VCC 7 750 -100 300 L 50 50 1 1 W
+X M0 8 750 0 300 L 50 50 1 1 w
+X M1 9 750 100 300 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library
